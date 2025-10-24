@@ -1,0 +1,52 @@
+/*
+
+Part 2: Styling
+1. Enhance Form Appearance
+○ Use CSS to center the form and add padding, borders, and spacing for
+a polished look.
+2. Optional Features
+○ Add a character counter below the feedback textarea.
+○ Disable the "Submit" button if any field is empty.
+
+*/
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: lightblue;
+  font-style: italic;
+}
+
+h2 {
+  color: pink;
+  font-style: italic;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.preview-form {
+  border: white solid 3px;
+  flex: 1;
+  padding: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-form {
+  flex: 1;
+}
+
+.submit-button {
+  background-color: green;
+}
