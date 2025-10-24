@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import UserForm from './components/FormData'
+import UserForm from './components/formData'
 import './App.css'
 
 function App() {
